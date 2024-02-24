@@ -1,11 +1,15 @@
- <script> 
- 
+<script>
 </script>
-<div class="h-screen bg-[url('https://placehold.co/1400')]">
 
-  <span class="grid place-content-center w-full h-full text-center align-middle"> 
-    <h1 class="text-5xl md:text-8xl font-bold tracking-wide p-3"><span class="text-red-800">FIRE</span> ON ALL CYLINDERS</h1>
-     <p class="text-3xl p-3">subheading</p>
-   <button class="p-5 self-center md:px-8 font-bold font-sans text-lg rounded-3xl bg-green-600 max-w-[40%] justify-self-center mt-2">Get it now</button>
-  </span>
+<div class="h-screen bg-yellow-300">
+	<span class="grid h-full w-full place-content-center text-center align-middle">
+		<h1 class="p-3 text-5xl font-bold uppercase tracking-wide md:text-7xl">
+			Gain <span class="text-primary">intelligence</span> like magic
+		</h1>
+		<p class="p-3 text-3xl">fire on all cylinders</p>
+		<button
+			class="mt-2 max-w-[40%] self-center justify-self-center rounded-3xl bg-primary p-5 font-sans text-lg font-bold md:px-8"
+			>Get it now</button
+		>
+	</span>
 </div>
