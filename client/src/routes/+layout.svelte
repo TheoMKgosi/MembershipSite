@@ -7,14 +7,16 @@
 	}
 </script>
 
-<nav class="bg-gradient-to-r from-green-400 to-green-500">
+<div class="bg-gradient-to-r from-green-500 to-green-600 h-auto">
+<nav >
 	<div class="md:flex md:justify-between">
 		<div class="flex justify-between">
 			<a href="/"> <img src={logo} alt="Logo" class="h-20" /></a>
+        <button on:click={menu}>
 			<svg
 				class="h-auto w-20 p-3 md:hidden"
 				aria-label="main"
-				on:click={menu}
+				
 				xmlns="http://www.w3.org/2000/svg"
 				width="800px"
 				height="800px"
@@ -29,6 +31,7 @@
 					stroke-linejoin="round"
 				/>
 			</svg>
+          </button>
 		</div>
 		<ul
 			class="flex-col md:mt-0 md:flex md:flex-row md:items-center md:space-x-10 md:space-y-0 {showMenu
@@ -51,5 +54,5 @@
 		</ul>
 	</div>
 </nav>
-
 <slot />
+</div>
